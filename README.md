@@ -1,5 +1,8 @@
 # Fake_resturant
 
+[Heroku](https://fakeresturant.herokuapp.com/)
+[Pull-requests](https://github.com/Hamzeh-Anas/Fake_resturant/pulls?q=is%3Apr+is%3Aclosed)
+[Actions](https://github.com/Hamzeh-Anas/Fake_resturant/actions)
 
 
 

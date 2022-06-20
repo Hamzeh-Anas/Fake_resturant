@@ -16,7 +16,7 @@ getUsersRouter.get('/users', bearer ,async(req,res,next)=>{
 getUsersRouter.delete('/users/:id', bearer, acl('delete'), async (req, res, next) => {
     const id = req.params.id;
     let theRecord = await Users.destroy({ where: { id:id }})
-    res.status(200).json("Deleted successfully ");
+    res.status(200).json(theRecord ,"Deleted successfully ");
   });
 
   getUsersRouter.put('/users/:id', bearer, acl('update'), async (req, res, next) => {
